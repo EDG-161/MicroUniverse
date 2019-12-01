@@ -1,0 +1,149 @@
+*{
+    font-family: 'Verdana';
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+.back{
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+}
+
+/*---------------Banner--------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner-cnt{
+    display: flex;
+    position: absolute;
+    background: url(../imagenes/petri1.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.title-ctn{
+    width: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 13px;
+}
+
+.title-ctn h1{
+    width: 100%;
+    color: white;
+    font-size: 50px;
+}
+
+.title-ctn hr{
+    margin: 10px;
+    color: blueviolet
+}
+#log-btn{
+    width: 200px;
+    opacity: 0.8;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(195, 41, 176,0.8);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#log-btn:hover{
+    background-color: rgba(195, 41, 176,1);
+    opacity: 1;
+}
+
+#reg-link{
+    margin: 10px;
+    width: 100%;
+    padding: 5px;
+    color: white;
+}
+
+#reg-link a{
+    color: white;
+
+}
+
+#reg-link a:hover{
+    color: rgb(176, 195, 41);
+    
+}
+
+.title-ctn h3{
+    margin: 5px;    
+    color: white;
+    opacity: 0.8;
+}
+
+.logo-ctn{
+    width: 100%;
+    max-width: 200px;
+}
+
+.logo-ctn img{
+    width: 100%;
+}
+
+
+/*______________Seccion___________*/
+
+.section{
+    max-width: 1200px;
+    margin: 40px;
+    background-color: white;    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section h2{
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+.section .des-cnt{
+    
+    text-align: justify;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*________________Footer_____________*/
+
+.footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    width: 100%
+}

@@ -1,0 +1,45 @@
+*{
+    font-family: 'Verdana';
+
+}
+.Inicio{
+	margin-left: 0%;
+	width:100%;
+ height: 200px;
+
+ align-items: start;
+ }
+ b{
+ 	margin-top: 2px;
+ 	font-weight:900;
+    height: 3rem;
+    font-size: 3rem;
+	color:black;
+ }
+ .Registro{
+ 	margin-top: 0%;
+ 	margin-right: 20%;
+
+ 	margin-left: 20%;
+ 	 	font-family: 'Verdana';
+ 	    font-size: 20px;
+ 	     	font-weight:900;
+ 	     	    color: white;
+ }
+ input{
+ 	font-family: 'Verdana';
+ 	    font-size: 20px;
+ }
+ body{
+ 	background-repeat: no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+  #boton{
+      color: black;
+    border: solid .1rem;
+    background-color: rgb(214, 212, 212);
+    border-radius: 0.25rem;
+}

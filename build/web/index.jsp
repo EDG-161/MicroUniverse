@@ -1,0 +1,74 @@
+<%-- 
+    Document   : index
+    Created on : 21/09/2019, 10:27:38 AM
+    Author     : eduardo
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Inicio
+    </title>
+    <link rel="icon" type="image/png" href="Assets/img/favicon.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" type="text/css" href="CSS/masster.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div class="back"><img src="Assets/bacca.jpg" alt=""></div>
+    <%
+        try{
+            if (session.getAttribute("user")!=null) {
+                response.sendRedirect("Home.jsp");
+            }
+        }catch(Exception e){
+        }
+    %>
+    <div class="container">
+        <div class="banner-cnt">
+            <div class="title-ctn">
+                <div class="logo-ctn"><img src="Assets/Bacteri-icon.png"></div>
+                <h1>
+                    <hr width="100%" color="#29B0C3" size="5">
+                     MicroUniverse 
+                     <h3>Una ayuda para tus proyectos</h3>
+                     <hr width="100%" color="#29B0C3" size="5">
+                </h1>
+                <a href="Login.jsp" id="log-btn">Inicia Sesion</a>
+                <div id="reg-link">¿Aun no tienes una cuenta?&nbsp;<a href="Registro.jsp">Registrate</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="bd-ctn">
+        <div class="section" id="about">
+            <h2>¿Qué es MicroUniverse?</h2>
+            <div class="des-cnt">
+                <p>
+                    MicroUniverse es una herramienta creada para ayudar al estudio de poblaciones de bacterias a traves de 
+                    la cracion de una bitacora para el segimiento del crecimiento 
+                    
+                    <a href="privacy.html">Terminos y condiciones</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+            <div class="footer" id="about">
+                
+                <div class="des-cnt">
+                    <p>
+                        Coatl MicroUniverse
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+</body>
+
+</html>
